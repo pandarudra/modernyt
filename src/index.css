@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.getstartedbtn {
+  background-color: #ff0000;
+}
+.welcome {
+  opacity: 0.5;
+  animation: visible 1s 1s linear forwards;
+}
+@keyframes visible {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
